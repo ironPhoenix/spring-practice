@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+    <bean id="engine" class="com.hans.bean2.Engine">
+        <!-- collaborators and configuration for this bean go here -->
+    </bean>
+
+    <bean id="benz" class="com.hans.bean2.Benz" >    
+        <property name="price" value="111" />
+        <property name="engine" ref="engine" />
+    </bean>
+    
+    <bean id="audi" class="com.hans.bean2.Audi" >            
+    </bean>
+    
+    <bean id="bwm" class="com.hans.bean2.Bwm" >    
+    </bean>
+    
+    <bean id="saler" class="com.hans.bean2.Saler">
+    	<property name="cars">
+    		<set>
+    			<ref bean="benz" />
+    			<ref bean="audi" />
+    			<ref bean="bwm" />
+    			<ref bean="bwm" />
+    			<ref bean="bwm" />
+    		</set>
+    	</property>
+    </bean>
+</beans>

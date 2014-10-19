@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!-- default-destroy-method="show"
+        default-init-method="show" -->
+
+    <bean id="engine" class="com.hans.bean.Engine">
+        <!-- collaborators and configuration for this bean go here -->
+    </bean>
+
+	 <!-- <bean id="benz" class="com.hans.bean.Benz" init-method="show" destroy-method="show"> -->
+    <bean id="benz" class="com.hans.bean.Benz" >    
+        <constructor-arg ref="engine" />
+        <constructor-arg type="int"  value="15" />
+    </bean>
+	
+	<bean id="bwm" class="com.hans.bean.Bwm" factory-method="getInstance">
+	</bean>
+    
+    <bean id="audi" class="com.hans.bean.Audi" scope="prototype">
+    <!-- <bean id="audi" class="com.hans.bean.Audi" > -->
+	</bean>
+	
+	
+
+</beans>
