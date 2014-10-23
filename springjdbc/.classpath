@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/lib/spring-framework-4.1.0.RELEASE/spring.jar/spring-aop-4.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/lib/spring-framework-4.1.0.RELEASE/spring.jar/spring-aspects-4.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/lib/spring-framework-4.1.0.RELEASE/spring.jar/spring-beans-4.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/lib/spring-framework-4.1.0.RELEASE/spring.jar/spring-context-4.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/lib/spring-framework-4.1.0.RELEASE/spring.jar/spring-context-support-4.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/lib/spring-framework-4.1.0.RELEASE/spring.jar/spring-core-4.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/lib/spring-framework-4.1.0.RELEASE/spring.jar/spring-expression-4.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/lib/spring-framework-4.1.0.RELEASE/spring.jar/spring-jdbc-4.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/lib/spring-framework-4.1.0.RELEASE/spring.jar/spring-jms-4.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/lib/spring-framework-4.1.0.RELEASE/spring.jar/spring-orm-4.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/lib/spring-framework-4.1.0.RELEASE/spring.jar/spring-oxm-4.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/lib/spring-framework-4.1.0.RELEASE/spring.jar/spring-tx-4.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/lib/hibernate-release-4.3.6.Final/lib/required/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="C:/lib/hibernate-release-4.3.6.Final/lib/required/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/lib/hibernate-release-4.3.6.Final/lib/required/hibernate-commons-annotations-4.0.5.Final.jar"/>
+	<classpathentry kind="lib" path="C:/lib/hibernate-release-4.3.6.Final/lib/required/hibernate-core-4.3.6.Final.jar"/>
+	<classpathentry kind="lib" path="C:/lib/hibernate-release-4.3.6.Final/lib/required/hibernate-jpa-2.1-api-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/lib/hibernate-release-4.3.6.Final/lib/required/jandex-1.1.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/lib/hibernate-release-4.3.6.Final/lib/required/javassist-3.18.1-GA.jar"/>
+	<classpathentry kind="lib" path="C:/lib/hibernate-release-4.3.6.Final/lib/required/jboss-logging-3.1.3.GA.jar"/>
+	<classpathentry kind="lib" path="C:/lib/hibernate-release-4.3.6.Final/lib/required/jboss-logging-annotations-1.2.0.Beta1.jar"/>
+	<classpathentry kind="lib" path="C:/lib/hibernate-release-4.3.6.Final/lib/required/jboss-transaction-api_1.2_spec-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/lib/commons-pool2-2.2/commons-pool2-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/lib/commons-dbcp2-2.0.1/commons-dbcp2-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/lib/struts-2.3.16.3/lib/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/lib/aopalliance.jar"/>
+	<classpathentry kind="lib" path="C:/lib/mysql-connector-java-5.1.30-bin.jar"/>
+	<classpathentry kind="lib" path="C:/lib/aspectj-1.8.2/lib/aspectjrt.jar"/>
+	<classpathentry kind="lib" path="C:/lib/aspectj-1.8.2/lib/aspectjweaver.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
